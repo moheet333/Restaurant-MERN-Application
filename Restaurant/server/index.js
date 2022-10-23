@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
-var sid = "ACbe9e22c3499c69ea8ffe3fe182fa07fe";
-var auth_token = "5bde7a7e8591d51eab47fe22674497de";
+var sid = "";
+var auth_token = "";
 const twilio = require("twilio")(sid, auth_token);
 const cors = require("cors");
 
